@@ -1,0 +1,32 @@
+
+   .ph{
+      font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    height: 10%;
+    color: #fff;
+    width: 20%;
+    position: absolute;
+    align-items: center;
+    margin: 0 auto;
+    background: #1a017e;
+    display: flex;
+justify-content: center;
+    margin: 20% 20% 20% 40%;
+    transition: 1s ease;
+    cursor: pointer;
+box-shadow: none;
+   } 
+   .ph:hover{
+      transform: scale(1.2);
+      box-shadow: #d540c9b3;
+   }
+   @media (max-width: 360px) {
+         .ph{
+            border-radius: 20px;
+    height: 10%;
+    width: 40%;
+        margin: 65% 11% 29% 30%
+         }
+      }
+   
+   
